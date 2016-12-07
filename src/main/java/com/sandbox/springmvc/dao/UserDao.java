@@ -18,14 +18,6 @@ public interface UserDao {
   RegisteredUser findById(Long id);
 
   /**
-   * Find by name.
-   *
-   * @param name the name
-   * @return the registered user
-   */
-  RegisteredUser findByName(String name);
-
-  /**
    * Save user.
    *
    * @param user the user
